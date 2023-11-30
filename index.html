@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify_clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+    <!--NavBar -->
+    <header>
+        <div class="navbar">
+            <div class="nav-box1">
+                <div class="nav-panel">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-panel">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="nav-box2">
+                <div class="nav-library">
+                    <div class="add-lib">
+                        <i class="fa-solid fa-book"></i>
+                        <p>Library</p>
+                    </div>
+                    <div class="add-icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="playlist">
+                    <p>Playlist</p>
+                </div>
+            </div>
+            <div class="nav-box3">
+                <div class="nav-panel1">
+                    <div class="nav-search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="nav-recent">
+                        <p>Recents</p>
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+                <div class="nav-liked">
+                    <i class="fa-solid fa-heart" id="liked"></i>
+                    <div class="liked-songs">
+                        <h3>Liked Songs</h3>
+                        <p><i class="fa-solid fa-thumbtack"></i>Playlist</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content Of Spotify Clone -->
+    <main>
+        <div class="main-content">
+            <div class="main-head">
+                <div class="arrow">
+                    <i class="fa-solid fa-angle-left"></i>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+                <div class="head-options">
+                    <p class="explore">Explore</p>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+            </div>
+            <div class="hero-section">
+                <div class="menu-header">
+                    <h2>Recently Played</h2>
+                </div>
+                <div class="songs">
+                    <div class="song-list">
+                        <img src="images/1.jpeg" alt="1">
+                        <i class="fa-solid fa-play  songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+                    <div class="song-list">
+                        <img src="images/2.jpeg" alt="2">
+                        <i class="fa-solid fa-play   songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+                    <div class="song-list">
+                        <img src="images/3.jpeg" alt="3">
+                        <i class="fa-solid fa-play   songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+                    <div class="song-list">
+                        <img src="images/4.jpeg" alt="4">
+                        <i class="fa-solid fa-play   songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+
+                </div>
+
+                <div class="menu-header">
+                    <h2>Your Favourite</h2>
+                </div>
+                <div class="songs">
+                    <div class="song-list">
+                        <img src="images/5.jpeg" alt="5">
+                        <i class="fa-solid fa-play  songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+                    <div class="song-list">
+                        <img src="images/6.jpeg" alt="6">
+                        <i class="fa-solid fa-play  songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+                    <div class="song-list">
+                        <img src="images/7.jpeg" alt="7">
+                        <i class="fa-solid fa-play  songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>        
+                    <div class="song-list">
+                        <img src="images/8.jpeg" alt="8">
+                        <i class="fa-solid fa-play  songItem"></i>
+                        <h3 class="songName"></h3>
+                        <p class="singerName"></p>
+                    </div>
+
+                </div>
+                <!-- Artist Name -->
+                <div class="menu-header">
+                    <h2>Artists</h2>
+                </div>
+                <div class="Artists">
+                    <div class="Artistslist">
+                        <img src="artists/a1.jpeg" alt="1">
+                        <h3 class="ArtistsName"> Badshah</h3>
+                    </div>
+                    <div class="Artistslist">
+                        <img src="artists/a2.jpeg" alt="2">
+                        <h3 class="ArtistsName">Aditya Rikhari</h3>
+                    </div>
+                    <div class="Artistslist">
+                        <img src="artists/a3.jpeg" alt="3">
+                        <h3 class="ArtistsName">Ritiviz</h3>
+                    </div>
+                    <div class="Artistslist">
+                        <img src="artists/a4.jpeg" alt="4">
+                        <h3 class="ArtistsName">Nikhita Gandhi</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </main>
+    <!-- Bottom PLayer  -->
+    <div class="bottom">
+        <div class="playing-song">
+            <div class="song-details">
+                <img src="images/1.jpeg" class="song-image" id="coverImage">
+                <span id="songTitle">Ram Siya Ram</span>
+                <p id="writerName"> Ajay-Atul, Parampara Thakur, and Sachet Tandon </p>
+                <i class="fa-regular fa-heart" id="like" onclick="LikeBtn()"></i>
+            </div>
+            <div class="play-control">
+                <div class="player-control">
+                    <i class="fa-solid fa-shuffle  control" id="Shuffle"></i>
+                    <i class="fa-solid fa-backward-step  control" id="postSong"></i>
+                    <i class="fa-solid fa-circle-play" id="playAudio"></i>
+                    <i class="fa-solid fa-forward-step  control" id="nextSong"></i>
+                    <i class="fa-solid fa-repeat  control" id="loopSong"></i>
+                </div>
+                <div class="progressbar">
+                    <input type="range" class="range" id="ProgressBar" min="0" max="100">
+                </div>
+            </div>
+            <div class="volume-control">
+                <i class="fa-solid fa-microphone"></i>
+                <i class="fa-solid fa-chalkboard-user"></i>
+                <span><i class="fa-solid fa-volume-high" id="Volume"></i><input type="range" class="range" id="minibar" min="0"
+                        max="10"></span>
+                <i class="fa-solid fa-headphones"></i>
+            </div>
+        </div>
+    </div>
+    <!-- Js File -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+/* Media Query */
+@media (min-width:1600px) and (max-width:1802px) {
+    .navbar {
+        width: 20%;
+        height: 100%;
+    }
+
+    .add-icons {
+        padding-left: 50%;
+        padding-top: 5px;
+    }
+
+    .nav-recent {
+        padding-left: 60%;
+        padding-top: 3px;
+    }
+
+    .main-content {
+        width: 76%;
+        position: absolute;
+        left: 21%;
+        height: 100%;
+    }
+
+    .head-options {
+        padding-left: 80%;
+    }
+
+    .nav-box3 {
+        height: 80vh;
+    }
+
+    .bottom {
+        height: 10%;
+    }
+
+    #ProgressBar {
+        width: 45vh;
+    }
+
+    .player-control {
+        padding-left: 20px;
+    }
+
+}
+
+/* Deskstop */
+@media (max-width:1030px) {
+    .nav-box3 {
+        height: 100vh;
+    }
+
+    .playlist {
+        margin-top: 25px;
+    }
+
+    .add-icons {
+        padding-left: 45%;
+    }
+
+    .songs {
+        flex-wrap: wrap;
+    }
+
+    .song-list {
+        width: 215px;
+        height: 250px;
+    }
+
+    .song-list img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .song-list p {
+        font-size: 15px;
+    }
+
+    #like {
+        padding-left: 26%;
+    }
+
+    .song-details span {
+        margin-top: -30px;
+    }
+
+    .volume-control {
+        margin-left: 80px;
+    }
+
+    .volume-control i {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .play-control {
+        margin-left: 80px;
+
+    }
+
+}
+/* Mobile */
+@media (max-width:380px) {
+    .navbar {
+        display: none;
+    }
+
+    .main-content {
+        width: 128%;
+        position: absolute;
+        left: 4%;
+
+    }
+
+    .head-options {
+        padding-left: 55%;
+    }
+
+    .Artists {
+        display: block;
+    }
+
+    .Artistslist {
+        margin-top: 40px;
+    }
+
+    .Artistslist h3 {
+        position: absolute;
+        display: inline;
+        left: 35%;
+
+    }
+
+    .Artistslist img {
+        border: 2px solid black;
+    }
+
+    .bottom {
+        bottom: 0;
+    }
+
+    .volume-control {
+        display: none;
+    }
+
+    .song-details p {
+        display: none;
+    }
+
+    .song-details img {
+        width: 40px;
+        height: 40px;
+        margin-left: -20px;
+    }
+
+    #like {
+        padding-left: 20px;
+        margin-top: -20px;
+    }
+
+    .play-control {
+        margin-top: 22px;
+    }
+
+    #ProgressBar {
+        width: 30vh;
+    }
+
+    .player-control {
+        padding-left: 0px;
+    }
+
+    .player-control i {
+        padding-left: 3px;
+    }
+}
