@@ -426,6 +426,9 @@ body {
     height: 20px;
 
 }
+.player-control i{
+    cursor:pointer;
+}
 
 #playAudio {
     color: white;
@@ -459,4 +462,5 @@ body {
 
 .volume-control i:hover{
     color: white;
+    cursor:pointer;
 }
